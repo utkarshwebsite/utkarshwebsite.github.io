@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+}
+body{
+    background-color: antiquewhite;
+}
+.head{
+    background: rgb(37, 37, 37);
+    height: 70px;
+}
+.heading{
+    color: white;
+    padding:15px;
+    font-family: Arial;
+}
+.aboutus{
+    text-align: center;
+    margin: 50px;
+    border:10px black;
+    border-style: dashed double;
+    border-radius: 3%;
+    padding: 10px;
+    background: rgba(255, 0, 0, 0.897);
+    width: 800px;
+    font-size: 18px;
+}
+.image{
+    position: absolute;
+    background: aqua;
+    bottom: 200px;
+    left: 1000px;
+    border: 4mm ridge rgb(169, 50, 220);
+    border-radius: 50px;
+
+    border: 0.5rem outset pink;
+    outline: 0.5rem solid khaki;
+    box-shadow: 0 0 0 2rem rgb(169, 50, 220);
+    border-radius: 12px;
+    font: bold 1rem sans-serif;
+    margin: 2rem;
+    padding: 1rem;
+    outline-offset: 0.5rem;
+}
+.button{
+    width: 50px;
+    background: green;
+    padding: 10px;
+    left: 5px;
+    position: relative;
+    bottom: 580px;
+}
+.footer{
+    background:#194f92;
+    height:50px;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+}
+.right{
+    padding: 15px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+}
