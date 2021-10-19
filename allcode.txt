@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Utkarsh Singh</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="Images/favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <div class="menu"></div>
+        <div class="d1"></div>
+        <div class="head">
+        </div>
+        <div class="nav">
+            <a href="index.html" class="navbuttons">Home</a>
+            <a href="about.html" class="navbuttons">About</a>
+            <a href="contactus.html" class="navbuttons">Contact Us</a>
+        </div>
+    </header>
+    <main>
+        <div class="main">
+            <div class="image">
+                Image
+                <br><br><br><br><br><br><br><br><br>
+            </div>
+            <div class="content">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi sit repudiandae non voluptatum odio. In porro fugit aliquam sequi, officiis dolore repellat magnam! Delectus rerum illo laboriosam minus nesciunt asperiores, natus nulla suscipit consectetur porro omnis ipsum dicta obcaecati, enim id assumenda sequi. Vitae commodi pariatur quia qui rem cum, consectetur nobis quam numquam iusto. Ipsam, unde incidunt consectetur vel officia eveniet. Natus voluptatibus debitis corporis nesciunt laboriosam unde ipsam soluta temporibus aperiam nostrum exercitationem laudantium vel, blanditiis error hic qui perferendis! Maxime, porro accusamus quibusdam doloribus consequuntur in recusandae consectetur sunt, aliquid ex tenetur. Mollitia a incidunt saepe, rem expedita culpa quod voluptate dolor architecto veniam aspernatur vitae odio quibusdam amet earum consequatur nihil, dolorem veritatis non? Quaerat consequatur est obcaecati itaque, autem deleniti, cum repellendus quis numquam voluptate unde corporis corrupti reiciendis quas ullam possimus voluptatum consequuntur beatae architecto aliquid nostrum nesciunt eaque fuga? Hic repellat quis expedita voluptatem ipsam aperiam nostrum soluta quidem iste sed ad ut fugiat, quas, sequi commodi. Nesciunt ab odio consectetur iure consequuntur quos. Aliquid pariatur unde labore error! Sit veniam doloribus, expedita rerum adipisci provident dolor eligendi dolore autem quas culpa, vitae maxime vel dolores in error nam fuga, facere exercitationem? Culpa?
+            </div>
+        </div>
+    </main>
+    <footer class="footer">
+        <p class="right">
+            © All Right Reserved By "utkarshwebsite.github.io"
+        </p>
+    </footer>
+</body>
+</html>
+
+about
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="Contactus.css">
+    <link rel="shortcut icon" href="Images/favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <header>
+       
+        <div class="head">
+            <h1 class="heading">Contact Us</h1>
+            <div class="nav">
+                <a href="index.html" class="navbuttons">Home</a>
+                <a href="about.html" class="navbuttons">About</a>
+                <a href="contactus.html" class="navbuttons">Contact Us</a>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="contact">
+            <h1 class="heading1">Contact Us</h1>
+            <p class="contactus">At "utkarshsingh8b.sts@gmail.com"</p>
+        </div>
+    </main> 
+    <footer>
+        <div class="footer">
+            <p class="right">
+                © All Right Reserved By "utkarshwebsite.github.io"
+            </p>
+        </div>
+    </footer>
+</body>
+</html>
+
+contact 
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+    <link rel="stylesheet" href="About.css">
+    <link rel="shortcut icon" href="Images/favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <div class="head">
+            <h1 class="heading">About Us</h1>
+            <div class="nav">
+                <a href="index.html" class="navbuttons">Home</a>
+                <a href="about.html" class="navbuttons">About</a>
+                <a href="contactus.html" class="navbuttons">Contact Us</a>
+            </div>
+        </div>
+    </header>
+    <main>
+        <img class="image" src="Images/index.jpg" alt="image">
+        <div class="aboutus">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur corrupti beatae illo, eveniet, porro modi dolorum temporibus sint architecto voluptates, ducimus pariatur reprehenderit eius? Magnam totam obcaecati exercitationem ut a. Molestias ipsam culpa, doloribus praesentium quisquam voluptatibus consequuntur maiores distinctio perspiciatis, non reiciendis fugiat. Nisi amet aliquid aperiam temporibus corporis? Fuga illo consectetur modi ab aperiam, nisi quod laudantium est officiis exercitationem, quo temporibus perspiciatis hic adipisci quaerat! Excepturi, vero nobis recusandae eius quasi optio velit officia odio ipsa suscipit molestias sint expedita magni ab ut eos laudantium cupiditate fugiat illum nostrum, doloribus, quibusdam deserunt ipsum vitae. Illo quaerat, expedita possimus voluptatibus quo laudantium quae quas nulla aut illum molestias sit aliquid aspernatur sed doloribus? Possimus iste repudiandae eum soluta perferendis qui labore, in illo minus quis nemo nulla magni quae autem fugit quasi dolor. Architecto hic laboriosam soluta ex provident aspernatur odit, quod quam mollitia minima voluptate autem animi ea perferendis accusantium voluptatem dolore quo suscipit non quaerat assumenda velit nulla. Debitis id harum corrupti nisi eius, fugiat tempora reiciendis corporis? Similique commodi corporis esse perspiciatis eaque quasi iusto quo ea, optio eligendi sed accusantium cupiditate ullam minima necessitatibus, placeat molestiae dolores eveniet quis voluptatem, reprehenderit qui ab. Accusamus modi iste error doloremque. Sunt vel quos, nihil possimus aspernatur quas eaque autem repudiandae, itaque vitae sapiente alias consequatur asperiores excepturi quasi natus repellat sequi eius neque tenetur ratione, nesciunt odio. Delectus, modi accusantium dicta exercitationem explicabo voluptatem aspernatur corporis optio voluptas ea hic cumque, neque nobis, rem molestiae? Porro atque ex debitis voluptas fuga totam delectus perferendis cumque. Deserunt ratione quis libero omnis magni dolorum doloremque quod aspernatur expedita accusamus sed perferendis doloribus, distinctio, impedit repellendus velit tempore cupiditate eaque? Voluptas repellat consequuntur esse perspiciatis minus nihil rerum odio magni corporis, iste dolorem numquam reiciendis quas. Doloribus, impedit vero.</div>
+    </main>
+    <footer>
+        <div class="footer">
+            <p class="right">
+                © All Right Reserved By "utkarshwebsite.github.io"
+            </p>
+        </div>
+    </footer>
+</body>
+</html>
+
+*{
+    margin: 0;
+}
+.menu{
+    background-color: #2b263d;
+    height: 50px;
+}
+.nav{
+    background: rgb(37, 37, 37);
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+.navbuttons {
+    color: white;
+    font-family: system-ui;
+    font-weight: bold;
+    padding-left: 1%;
+    text-decoration:none;
+}
+.d1{
+    background-color: #ff9000;
+    height: 2px;
+}
+.head{
+    height:400px;
+    background: rgb(0, 0, 0) url(./Images/84-846858_hd-wallpaper-software.png) no-repeat;
+    background-size: 90% 350px;
+    background-position:center;
+}
+
+.main{
+    margin-top: 50px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 5%;
+    padding-top: 10px;
+    width: 80%;
+    border: 10px solid black;
+    background: rgb(253, 244, 232);
+    border-style: dashed double;
+    border-radius: 2%;
+    margin-bottom: 80px;
+}
+.image{
+    width: 300px;
+    padding: 10px;
+    background-color: rgb(148, 147, 146);
+    border: 1px solid black;
+}
+.content{
+    margin: auto;
+    text-align: center;
+    font-family: Arial;
+    font-size: 20px;
+    font-weight: bold;
+}
+.footer{
+    background:#194f92;
+    height:50px;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+}
+.right{
+    padding-top: 1%;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+}  
+
+*{
+    margin: 0;
+}
+body{
+    background-color: antiquewhite;
+}
+.head{
+    background: rgb(37, 37, 37);
+    height: 70px;
+    width: 100%;
+}
+.heading{
+    color: white;
+    padding:15px;
+    font-family: Arial;
+}   
+.nav{
+    width: 50%;
+    margin-right: 1%;
+    margin-left: auto;
+    position: relative;
+    margin-top: 20px;
+    top: -95%;
+    text-align: right;
+}
+.navbuttons {
+    color: white;
+    font-family: system-ui;
+    font-weight: bold;
+    padding-left: 1%;
+    text-decoration:none;
+}
+.contact{
+    border: 4mm ridge rgb(169, 50, 220);
+    margin: 10px;
+    width: 340px;
+}
+.heading1{
+    padding: 10px;
+    font-family: fantasy;
+    font-weight: bold;
+}
+.contactus{
+    padding: 1.5%;
+    padding-left: 40px;
+    font-family:fantasy;
+    font-size: 20px;
+}
+.footer{
+    background:#194f92;
+    height:50px;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+}
+.right{
+    padding-top: 1%;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+}
+*{
+    margin: 0;
+}
+body{
+    background-color: antiquewhite;
+}
+.head{
+    background: rgb(37, 37, 37);
+    height: 70px;
+    width: 100%;
+}
+.heading{
+    color: white;
+    padding:15px;
+    font-family: Arial;
+}
+.image{
+    position: relative;
+    background: aqua;
+    top: 10px;
+    border: 4mm ridge rgb(169, 50, 220);
+    border-radius: 50px;
+    width: 220px;
+
+    border: 0.5rem outset pink;
+    outline: 0.5rem solid khaki;
+    box-shadow: 0 0 0 2rem rgb(169, 50, 220);
+    border-radius: 12px;
+    font: bold 1rem sans-serif;
+    margin: 2rem;
+    padding: 1rem;
+    outline-offset: 0.5rem;
+}
+.aboutus{
+    margin: 50px;
+    margin-left: 20px;
+    margin-right: auto;
+    text-align: center;
+    border: 10px black;
+    border-style: dashed double;
+    border-radius: 3%;
+    padding: 10px;
+    background: rgba(255, 0, 0, 0.897);
+    width: 80%;
+    font-size: 18px;
+}
+.nav{
+    width: 50%;
+    margin-right: 1%;
+    margin-left: auto;
+    position: relative;
+    margin-top: 20px;
+    top: -95%;
+    text-align: right;
+}
+.navbuttons {
+    color: white;
+    font-family: system-ui;
+    font-weight: bold;
+    padding-left: 1%;
+    text-decoration:none;
+}
+.footer{
+    background:#194f92;
+    height:50px;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+}
+.right{
+    padding-top: 1%;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+}
