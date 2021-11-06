@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+}
+body{
+    background-color: antiquewhite;
+}
+.head{
+    background: rgb(37, 37, 37);
+    height: 70px;
+    width: 100%;
+}
+.heading{
+    color: white;
+    padding:15px;
+    font-family: Arial;
+}   
+.nav{
+    width: 50%;
+    margin-right: 1%;
+    margin-left: auto;
+    position: relative;
+    margin-top: 20px;
+    top: -95%;
+    text-align: right;
+}
+.navbuttons {
+    color: white;
+    font-family: system-ui;
+    font-weight: bold;
+    padding-left: 1%;
+    text-decoration:none;
+}
+.contact{
+    border: 4mm ridge rgb(169, 50, 220);
+    margin: 10px;
+    box-sizing: border-box;
+    width: 350px;
+}
+.heading1{
+    padding: 5px;
+    font-family: fantasy;
+    font-weight: bold;
+    box-sizing: border-box;
+}
+.contactus{
+    padding: 10px;
+    padding-left: 20px;
+    font-family:fantasy;
+    font-size: 20px;
+    box-sizing: border-box;
+}
+.footer{
+    /* background:#194f92; */
+    background: red;
+    color: white;
+    height:50px;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+}
+.right{
+    padding-top: 1%;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+}

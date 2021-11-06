@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+}
+body{
+    background-color: white;
+}
+.head{
+    background: rgb(37, 37, 37);
+    height: 70px;
+    width: 100%;
+}
+.heading{
+    color: white;
+    padding:15px;
+    font-family: Arial;
+}
+.aboutus{
+    margin: 50px;
+    /* margin-left: 20px;
+    margin-right: auto; */     
+    text-align: center;
+    border: 10px black;
+    border-style: dashed double;
+    border-radius: 3%;
+    padding: 10px;
+    background: rgb(253, 232, 205);
+    width: 50%;
+    font-size: 18px;
+    font-family: arial;
+    display:inline-block;
+}
+.image{
+    position: relative;
+    height: 250px;
+    background: aqua;
+    top: 10px;
+    left: 10px;
+    border: 4mm ridge rgb(169, 50, 220);
+    border-radius: 50px;
+    width: 220px;
+    border: 0.5rem outset pink;
+    outline: 0.5rem solid khaki;
+    box-shadow: 0 0 0 2rem rgb(169, 50, 220);
+    border-radius: 12px;
+    font: bold 1rem sans-serif;
+    margin: 2rem;
+    padding: 1rem;
+    outline-offset: 0.5rem;
+    margin-bottom: 90px;
+    display: inline-block;
+}
+.nav{
+    width: 50%;
+    margin-right: 1%;
+    margin-left: auto;
+    position: relative;
+    margin-top: 20px;
+    top: -95%;
+    text-align: right;
+}
+.navbuttons {
+    color: white;
+    font-family: system-ui;
+    font-weight: bold;
+    padding-left: 1%;
+    text-decoration:none;
+}
+.footer{
+    /* background:#194f92; */
+    background: red;
+    color: white;
+    height:50px;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+}
+.right{
+    padding-top: 1%;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+}   

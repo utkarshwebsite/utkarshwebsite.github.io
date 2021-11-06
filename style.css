@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+}
+.menu{
+    background-color: #2b263d;
+    height: 50px;
+}
+h1{
+    color: white;
+    font-family: arial;
+    text-align: center;
+    padding-top: 5px;
+}
+.nav{
+    background: rgb(37, 37, 37);
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+.navbuttons {
+    color: white;
+    font-family: system-ui;
+    font-weight: bold;
+    padding-left: 1%;
+    text-decoration:none;
+}
+.d1{
+    background-color: #ff9000;
+    height: 2px;
+}
+.head{
+    height: 50vh;
+    background: rgb(0, 0, 0) url(./Images/index.png) no-repeat;
+    background-size: 90vw 90%;
+    background-position: center;
+}
+
+.main{
+    margin-top: 50px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 5%;
+    padding-top: 10px;
+    width: 80%;
+    border: 10px solid black;
+    background: rgb(253, 244, 232);
+    border-style: dashed double;
+    border-radius: 2%;
+    margin-bottom: 60px;
+}
+.image{
+    width: 250px;
+    padding: 10px;
+    background-color: rgb(148, 147, 146);
+    border: 1px solid black;
+}
+.content{
+    margin: auto;
+    text-align: center;
+    font-family: Arial;
+    font-size: 20px;
+    font-weight: bold;
+    width: 60%;
+}
+.footer{
+    /* background:#194f92; */
+    background: red;
+    color: white;
+    height:50px;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+}
+.right{
+    padding-top: 1%;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+}  
