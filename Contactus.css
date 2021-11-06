@@ -33,18 +33,21 @@ body{
 .contact{
     border: 4mm ridge rgb(169, 50, 220);
     margin: 10px;
-    width: 340px;
+    box-sizing: border-box;
+    width: 350px;
 }
 .heading1{
-    padding: 10px;
+    padding: 5px;
     font-family: fantasy;
     font-weight: bold;
+    box-sizing: border-box;
 }
 .contactus{
-    padding: 1.5%;
-    padding-left: 40px;
+    padding: 10px;
+    padding-left: 20px;
     font-family:fantasy;
     font-size: 20px;
+    box-sizing: border-box;
 }
 .footer{
     /* background:#194f92; */

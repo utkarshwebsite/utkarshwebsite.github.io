@@ -14,6 +14,21 @@ body{
     padding:15px;
     font-family: Arial;
 }
+.aboutus{
+    margin: 50px;
+    /* margin-left: 20px;
+    margin-right: auto; */     
+    text-align: center;
+    border: 10px black;
+    border-style: dashed double;
+    border-radius: 3%;
+    padding: 10px;
+    background: rgb(253, 232, 205);
+    width: 50%;
+    font-size: 18px;
+    font-family: arial;
+    display:inline-block;
+}
 .image{
     position: relative;
     height: 250px;
@@ -23,7 +38,6 @@ body{
     border: 4mm ridge rgb(169, 50, 220);
     border-radius: 50px;
     width: 220px;
-
     border: 0.5rem outset pink;
     outline: 0.5rem solid khaki;
     box-shadow: 0 0 0 2rem rgb(169, 50, 220);
@@ -32,21 +46,8 @@ body{
     margin: 2rem;
     padding: 1rem;
     outline-offset: 0.5rem;
-}
-.aboutus{
-    margin: 50px;
-    margin-left: 20px;
-    margin-right: auto;
-    text-align: center;
-    border: 10px black;
-    border-style: dashed double;
-    border-radius: 3%;
-    padding: 10px;
-    background: rgb(253, 232, 205);
-    width: 80%;
-    font-size: 18px;
-    margin-bottom: 60px;
-    font-family: arial;
+    margin-bottom: 90px;
+    display: inline-block;
 }
 .nav{
     width: 50%;
