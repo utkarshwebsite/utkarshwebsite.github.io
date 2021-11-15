@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Websites</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+    </style> 
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" crossorigin="anonymous">
+</head>
+<body>
+    <nav id="navlinks" class="nav-mobile">
+        <ul>
+            <i class="fa fa-times" onclick="hidemenu()"></i>
+            <li><a class="nav-btn" href="#">Home</a></li>
+            <li><a class="nav-btn" href="#">About</a></li>
+            <li><a class="nav-btn" href="#">Rules & Regulations</a></li>
+            <li><a class="nav-btn" href="#">Registration/Addmission</a></li>
+            <li><a class="nav-btn" href="#">Contact</a></li>
+            <li class="li"><a class="nav-btn" href="#">Alumni</a></li>
+            <li class="li"><a class="nav-btn" href="Login.html">Login</a></li>
+        </ul>
+    </nav>
+    <header>
+        <i class="fa fa-bars" id="fa" onclick="showmenu()"></i>
+        <nav >
+            <i class="fa fa-bars" onclick="showmenu()"></i>
+            <i class="fa fa-times" onclick="hidemenu()"></i>
+            <ul>
+                <li><a class="nav-btn" href="#">Home</a></li>
+                <li><a class="nav-btn" href="#">About</a></li>
+                <li><a class="nav-btn" href="#">Rules & Regulations</a></li>
+                <li><a class="nav-btn" href="#">Registration/Addmission</a></li>
+                <li><a class="nav-btn" href="#">Contact</a></li>
+                <li class="li"><a class="nav-btn" href="#">Alumni</a></li>
+                <li class="li"><a class="nav-btn" href="Login.html">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="banner">
+            <img src="Images/banner.bmp" alt="banner" width="100%" height="100%">
+        </div>
+        <div class="main"><img src="Images/Background.jpg" height="100%" width="100%"alt=""></div>
+        <div class="about-sep"><h2>About Us</h2></div>
+        <div class="sepration"><h2>School</h2></div>
+        <div class="school">
+            <div class="principal">
+                <img src="Images/Principal.jpg" alt="Principal" class="img">
+                <h3>From The Principal's Desk</h3>
+            </div>
+            <div class="manager">
+                <img src="Images/Manager.jpg" alt="Manager" class="img">
+                <h3>From The Manager's Desk</h3>
+            </div>
+        </div>
+        <div class="abut-cond"><h3>About Us</h3></div>
+        <div class="aboutus">
+            <img src="Images/logo.jpg" alt="Principal" class="logo-img"><br>
+            <b>St. Thomas School was established by Mr. Rakesh Chattree the Principal of Christ Church College, Lucknow, who laid its foundation on the 8th day of July in the year 2008 and got it dedicated on 5th December, 2009. The School was first named as Bishop Stephen School in 2009 which was later changed to St. Thomas School in the year 2010 on the name of the Church standing in the middle of the campus since 1859. <a href="#">Read More</a></b>
+        </div>
+    </main> 
+    <footer>
+        <p>&copy; 2016 St. Thomas School, Gonda| .All Rights Reserved</p>
+    </footer>
+    
+    <script>
+        var navlinks = document.getElementById("navlinks");
+        function showmenu(){
+            navlinks.style.right = "0px";
+            navlinks.style.transition = "1s";
+        }
+        function hidemenu(){
+            navlinks.style.right = "-80vw";
+        }
+    </script>
+
+</body> 
+</html>
