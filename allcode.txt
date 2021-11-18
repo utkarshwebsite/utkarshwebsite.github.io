@@ -1,0 +1,799 @@
+<!DOCTYPE html>
+<!-- <html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="SmartCms Team" />
+    <meta name="keyword" content="multipurpose, business" />
+    <title>Educational Portal: St. Thomas School Gonda</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+    </style> 
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" crossorigin="anonymous">
+</head>
+<body>
+    <nav id="navlinks" class="nav-mobile">
+        <ul>
+            <span class="menu-cls"><i class="fa fa-times" onclick="hidemenu()"></i></span>
+            <li><a class="nav-btn" href="index.html">Home</a></li>
+            <li><a class="nav-btn" href="about.html">About</a></li>
+            <li><a class="nav-btn" href="#">Rules & Regulations</a></li>
+            <li><a class="nav-btn" href="#">Registration/Addmission</a></li>
+            <li><a class="nav-btn" href="contact.html">Contact</a></li>
+            <li class="li"><a class="nav-btn" href="alumni.html">Alumni</a></li>
+            <li class="li"><a class="nav-btn" href="Login.html">Login</a></li>
+        </ul>
+    </nav>
+    <header>
+        <span class="menu-opn"><i class="fa fa-bars" onclick="showmenu()"></i></span>
+        <nav >
+            <ul>
+                <li><a class="nav-btn" href="#">Home</a></li>
+                <li><a class="nav-btn" href="about.html">About</a></li>
+                <li><a class="nav-btn" href="#">Rules & Regulations</a></li>
+                <li><a class="nav-btn" href="#">Registration/Addmission</a></li>
+                <li><a class="nav-btn" href="contact.html">Contact</a></li>
+                <li class="li"><a class="nav-btn" href="alumni.html">Alumni</a></li>
+                <li class="li"><a class="nav-btn" href="Login.html">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="banner">
+            <img src="Images/banner.bmp" alt="banner" width="100%" height="100%">
+        </div>
+        <div class="main"><img src="Images/Background.jpg" height="100%" width="100%"alt=""></div>
+        <div class="about-sep"><h2>About Us</h2></div>
+        <div class="sepration"><h2>School</h2></div>
+        <div class="school">
+            <div class="principal">
+                <img src="Images/Principal.jpg" alt="Principal" class="img">
+                <h3>From The Principal's Desk</h3>
+            </div>
+            <div class="manager">
+                <img src="Images/Manager.jpg" alt="Manager" class="img">
+                <h3>From The Manager's Desk</h3>
+            </div>
+        </div>
+        <div class="abut-cond"><h3>About Us</h3></div>
+        <div class="aboutus">
+            <img src="Images/logo.jpg" alt="Principal" class="logo-img"><br>
+            <b>St. Thomas School was established by Mr. Rakesh Chattree the Principal of Christ Church College, Lucknow, who laid its foundation on the 8th day of July in the year 2008 and got it dedicated on 5th December, 2009. The School was first named as Bishop Stephen School in 2009 which was later changed to St. Thomas School in the year 2010 on the name of the Church standing in the middle of the campus since 1859. <a href="#">Read More</a></b>
+        </div>
+        <div class="Photo-Gallery"><h2>Photo Gallery</h2></div>
+        <div class="gallery">
+            <img src="Images/Gallery/img1.jpg" alt="" height="316px" width="474">
+            <img class="img1" src="Images/Gallery/img2.jpg" alt="">
+            <img class="img2" src="Images/Gallery/img3.jpg" alt="">
+            <img class="img3" src="Images/Gallery/img4.jpg" alt="">
+            <img class="img4" src="Images/Gallery/img5.jpg" alt="">
+            <img class="img5" src="Images/Gallery/img6.jpg" alt="">
+            <img class="img6" src="Images/Gallery/img7.jpg" alt="">
+            <img src="Images/Gallery/img8.jpg" alt="">
+        </div>
+    </main> 
+    <footer>
+        <p>&copy; 2016 St. Thomas School, Gonda| .All Rights Reserved</p>
+    </footer>
+    
+    <script>
+        var navlinks = document.getElementById("navlinks");
+        function showmenu(){
+            navlinks.style.right = "0px";
+            navlinks.style.transition = "1s";
+        }
+        function hidemenu(){
+            navlinks.style.right = "-80vw";
+        }
+    </script>
+
+</body> 
+</html> -->
+<!DOCTYPE html>
+<!-- <html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="SmartCms Team" />
+    <meta name="keyword" content="multipurpose, business" />
+    <title>Educational Portal: St. Thomas School Gonda</title>
+    <link rel="stylesheet" href="contact.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+    </style> 
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" crossorigin="anonymous">
+</head>
+<body>
+    <nav id="navlinks" class="nav-mobile">
+        <ul>
+            <span class="menu-cls"><i class="fa fa-times" onclick="hidemenu()"></i></span>
+            <li><a class="nav-btn" href="index.html">Home</a></li>
+            <li><a class="nav-btn" href="about.html">About</a></li>
+            <li><a class="nav-btn" href="#">Rules & Regulations</a></li>
+            <li><a class="nav-btn" href="#">Registration/Addmission</a></li>
+            <li><a class="nav-btn" href="contact.html">Contact</a></li>
+            <li class="li"><a class="nav-btn" href="alumni.html">Alumni</a></li>
+            <li class="li"><a class="nav-btn" href="Login.html">Login</a></li>
+        </ul>
+    </nav>
+    <header>
+        <span class="menu-opn"><i class="fa fa-bars" onclick="showmenu()"></i></span>
+        <nav >
+            <ul>
+                <li><a class="nav-btn" href="#">Home</a></li>
+                <li><a class="nav-btn" href="about.html">About</a></li>
+                <li><a class="nav-btn" href="#">Rules & Regulations</a></li>
+                <li><a class="nav-btn" href="#">Registration/Addmission</a></li>
+                <li><a class="nav-btn" href="contact.html">Contact</a></li>
+                <li class="li"><a class="nav-btn" href="alumni.html">Alumni</a></li>
+                <li class="li"><a class="nav-btn" href="Login.html">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <main>
+            <div class="banner">
+            <img src="/Images/banner.bmp" alt="banner" width="100%" height="100%">
+            </div>
+            <div class="sepration"><h3>Contact Us</h3></div>
+
+            <div class="main">
+                <center class="img"><img src="images/Contactus.gif" alt="" style="margin-top: 30px;" /></center>
+                 <div class="col-sm-12 col-md-8">
+         
+                    <center>
+                             <div class="contact">
+                                <h3>
+                             
+                                    <b>School Campus</b></h3>
+                                St. Thomas School,<br /> St. Thomas Church Compound, <br />Ambedkar Chauraha, Civil Lines, <br />Gonda - 271001 (U.P.) <br />
+                                <br />
+                                <br />
+                                Contact No.: 9919058300
+                                <br />
+                                For Admission Enquiry- Contact School Office<br />
+                                EMAIL: <a class="email" href="st.thomas.school2009@gmail.com">st.thomas.school2009@gmail.com
+                                </a>
+                                <br />
+                                <br />
+                                <h3>
+                                    <b>Your Feedback</b></h3>
+                                <p>
+                                    <a href="http://Shiksha.biz/"></a>
+                                </p>
+                                <p>
+                                    <input name="ctl00$ContentPlaceHolder1$TxtCname" type="text" value="Your Name" id="ctl00_ContentPlaceHolder1_TxtCname" class="txt" onfocus="if(this.value==&#39;Your Name&#39;){value=&#39;&#39;;}" onblur="if(this.value.trim()==&#39;&#39;){value=&#39;Your Name&#39;;}" /></p>
+                                <p>
+                                    <input name="ctl00$ContentPlaceHolder1$TxtCmobile" type="text" value="Contact No" maxlength="11" id="ctl00_ContentPlaceHolder1_TxtCmobile" class="txt" onkeypress="return checkIt(event);" onfocus="if(this.value==&#39;Contact No&#39;){value=&#39;&#39;;}" onblur="if(this.value.trim()==&#39;&#39;){value=&#39;Contact No&#39;;}" /></p>
+                                <p>
+                                    <input name="ctl00$ContentPlaceHolder1$TxtCmail" type="text" value="Contact Email" id="ctl00_ContentPlaceHolder1_TxtCmail" class="txt" onfocus="if(this.value==&#39;Contact Email&#39;){value=&#39;&#39;;}" onblur="if(this.value.trim()==&#39;&#39;){value=&#39;Contact Email&#39;;}" /></p>
+                                <p>
+                                    <textarea name="ctl00$ContentPlaceHolder1$TxtMsg" rows="2" cols="20" id="ctl00_ContentPlaceHolder1_TxtMsg" class="txt" onfocus="if(this.value==&#39;Message&#39;){value=&#39;&#39;;}" onblur="if(this.value.trim()==&#39;&#39;){value=&#39;Message&#39;;}" style="height:120px;width:250px;">
+            Message</textarea></p>
+                                <p><input type="submit" name="ctl00$ContentPlaceHolder1$Btnsend" class="send-btn" value="Send" onclick="return validemail();" id="ctl00_ContentPlaceHolder1_Btnsend" style="padding: 5px 10px;" /></p>
+                            
+                            <p>
+                                <span id="ctl00_ContentPlaceHolder1_lblmsg" style="color:#FFF000;font-size:13px;"></span></p>
+                             </div>
+                             <details>
+                                <summary>Developer Contact</summary>
+                                <a href=""class="email">29singhutkarsh2007@gmail.com</a>
+                            </details>
+                             </center>
+             </div>  
+                 </div>
+         
+         
+                    
+                      </div>
+        </main>
+
+
+       <footer>
+        <p>&copy; 2016 St. Thomas School, Gonda| .All Rights Reserved</p>
+    </footer>
+    
+    <script>
+        var navlinks = document.getElementById("navlinks");
+        function showmenu(){
+            navlinks.style.right = "0px";
+            navlinks.style.transition = "1s";
+        }
+        function hidemenu(){
+            navlinks.style.right = "-80vw";
+        }
+    </script> 
+
+
+</body> 
+</html> -->
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<!-- <html xmlns="http://www.w3.org/1999/xhtml">
+<head><title>
+	Educational Portal: St. Thomas School Gonda
+</title><link href="login.css" rel="stylesheet" type="text/css" />
+
+    <script type="text/javascript">
+        function validate() {
+            uid = document.getElementById('username').value;
+            pwrd = document.getElementById('password').value;
+            utype = document.getElementById('DdlUType');
+            strsession = document.getElementById('ddl_session');
+            if (strsession.selectedIndex == 0) {
+                alert('Please Select Session.');
+                return false;
+            }
+            if (utype.selectedIndex == 0) {
+                alert('Please Select User Category.');
+                return false;
+            }
+            if (uid.trim() == "") {
+                alert('Please Enter Username.');
+                return false;
+            }
+            if (pwrd.trim() == "") {
+                alert('Please Enter Password.');
+                return false;
+            }
+            else { return true; }
+        }
+    </script>
+</head>
+<body>
+    <form name="form1" method="post" action="./login.aspx" id="form1">
+<div>
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUKMTEzNjQ0NTQxOQ9kFgICAw9kFgQCAQ8QDxYGHg1EYXRhVGV4dEZpZWxkBQdTZXNzaW9uHg5EYXRhVmFsdWVGaWVsZAUHU2Vzc2lvbh4LXyFEYXRhQm91bmRnZBAVBAgtU2VsZWN0LQkyMDIxLTIwMjIJMjAyMC0yMDIxCTIwMTktMjAyMBUEATAJMjAyMS0yMDIyCTIwMjAtMjAyMQkyMDE5LTIwMjAUKwMEZ2dnZ2RkAgMPEA8WBh8ABQRuYW1lHwEFAmlkHwJnZBAVBg8tLVNlbGVjdCBVc2VyLS0LU3VwZXIgQWRtaW4FQWRtaW4FU3RhZmYHU3R1ZGVudAtPbmxpbmUgRXhhbRUGATABMQEyATMBNAE1FCsDBmdnZ2dnZ2RkGAEFHl9fQ29udHJvbHNSZXF1aXJlUG9zdEJhY2tLZXlfXxYBBQpyZW1lbWJlcm1lTRU2yhu1mTBZ4g3pOy+PJWhlkMLfbvWFH8OQs3VIIyY=" />
+</div>
+
+<div>
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="1806D926" />
+	<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="/wEdAA/+/LGwNtxgAxL5fzH2ZfzZLiaXEbf4Sh/7MmcsxPcQ5ngEVRJVq7W+vteUz+4J++Z/Pb7ofv+aSdCXox+M+WrW4saBVAMD2nt794MLAOLs8k+SYAlzeLzugQLE/uLLaLIcTP/X0MheSGm8Ce9kLMrViHiM13md2J75NdmqMWEe0YtmeaQxOhGpBtNqHqVeiQCKz9XLH0T8RRsn3IEq/bX3+4FLhfEd4IfC7A+kFWdUZSoaAslXSbSyIrOQIGGf0WHuLHIiTtx6HOvMUxbWRkBIigWqzIjWjwdPosUsQNTWEHQ5Zqs20dm+56iYEKddLRo418sOfK8oX0DNyJLM62RhHDbfuuRMZyfWHIMlB0t+uA==" />
+</div>
+    <a href="/index.html"><div class="logo"></div></a>
+<div class="login-block">
+    <h1>Login</h1>
+    
+    <select name="ddl_session" id="ddl_session" class="txt">
+	<option selected="selected" value="0">--Select Session--</option>
+	<option value="2021-2022">2021-2022</option>
+	<option value="2020-2021">2020-2021</option>
+	<option value="2019-2020">2019-2020</option>
+
+</select>
+
+      <select name="DdlUType" id="DdlUType" class="txt">
+	<option value="0">--Select User--</option>
+	<option value="1">Super Admin</option>
+	<option value="2">Admin</option>
+	<option value="3">Staff</option>
+	<option value="4">Student</option>
+	<option value="5">Online Exam</option>
+
+</select>
+                                            
+          <input name="username" type="text" maxlength="25" id="username" class="txt" placeholder="Username" />
+                                           
+           <input name="password" type="password" maxlength="25" id="password" class="txt" placeholder="Password" />
+
+    <input id="rememberme" type="checkbox" name="rememberme" /><label for="rememberme">Remember Me</label><br /><br />
+
+    <input type="submit" name="btn_login" value="Login" onclick="return validate();" id="btn_login" class="btn" />
+
+    <a href="../Forget_Password.aspx" style="text-align:right;margin-top:10px; margin-bottom:10px;" class="Forgetpass-btn">Forget Password</a>
+</div>
+    </form>
+</body>
+</html> -->
+
+*{
+    margin: 0;
+}
+/*Header*/
+header{
+    /* height:100px; */
+    box-sizing: border-box;
+    background: linear-gradient(#29156a,#f0b904a1);
+    width: 100%;
+    padding: 8vh 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logo{
+    border-radius: 500px;
+    height: 10vh;
+    float: left;
+}
+li{
+    display: inline-block;
+    padding: 5px 15px;
+    border-radius: 3px;
+    margin: 0px 20px;
+}
+.li{
+    background: #9e1f22;
+}
+.li:hover{
+    background: #fc0004;   
+    transition: 0.5s;
+}
+li:hover{
+    background: rgba(0, 0, 128, 0.555);   
+    transition: 0.5s; 
+}
+.nav-btn{
+    text-decoration: none;
+    color: white;
+}
+nav .fa{
+    display: none;
+}
+.menu-opn{
+    display: none;
+}
+.nav-mobile{
+    display: none;
+}
+/* For mobile view */
+@media only screen and (max-width: 900px){
+    nav{
+        display: none;
+    }
+    header{
+        justify-content:right;
+        padding: 4vh 0vh;
+    }
+    .nav-btn{
+        padding: 5px 15px;
+    }
+    .menu-opn{
+        display: block;
+        color:#fff;
+        padding: 5px 20px;
+    }
+    nav .fa{
+        display: block;
+        color: white;
+        margin-top: 15px;
+        padding: 5px;
+    }
+    .nav-mobile{
+        display: block;
+        background: linear-gradient(#29156a,#f0b904a1);
+        height: 100vh;
+        position: fixed;
+        right: -80vw;
+        /* margin: auto; */
+    }
+    li{
+        margin: 5px 0px;
+        display: block;
+    }
+    
+}
+/* main*/ 
+body{
+    background: #fffcd7;
+}
+.banner{
+    width: 100%;
+    height: 15vw;
+} 
+.main{
+    background-size:cover;
+    width: 100%;
+    height: 50vw;
+}
+main{
+    margin-bottom: 15%;
+}
+.about-sep{
+    background: #f6c103;
+    width: 25vw;
+    /* height: 5vh; */
+    border: 5px solid navy;
+    border-style: none none solid none;
+    text-align:center;
+    color: #fff;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    float: right;
+}
+.logo-img{
+    border: 10px solid #29156a;
+    border-radius: 200px;
+    height: 15vw;
+}
+.aboutus{
+    width: 25vw;
+    text-align: center;
+    background: #fffcd7;
+    padding: 10px 15px; 
+    box-sizing: border-box;
+    font-family: lora, sans-serif;
+    display: inline;
+    float: right;
+}
+.abut-cond{
+    display: none;
+}
+.sepration{
+    background: #f6c103;
+    width: 72vw;
+    border: 5px solid navy;
+    border-style: none none solid none;
+    text-align:center;
+    color: #fff;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.school{
+    text-align:center;
+    color: maroon;
+    background: #fffcd7;
+    width: 72vw;
+    display: inline-flex;
+    justify-content:space-around;
+    padding:0 5%;
+    box-sizing: border-box;
+}
+.principal{
+    float: inline-start;
+}
+.manager{
+    float: inline-end;
+}
+.img{
+    border-radius: 200px;
+}
+.manager-img{
+    border-radius: 189px;
+}
+
+/* footer */
+footer{
+    background: #005c87;
+    width: 100%;
+    padding:20px 0%;
+    position:fixed;
+    bottom: 0;
+}
+footer p{
+    color: #fff;
+    text-align: center;
+}
+@media only screen and (max-width:900px){
+    main{
+        margin-bottom: 360px;
+    }
+    .aboutus{
+        display:block;
+        width:100vw;
+        padding: 10px 20px;
+    }
+    .about-sep{
+        display: none;
+    }
+    .abut-cond{
+        display: inline-block;
+        background: #f6c103;
+        width:100vw;
+        border: 5px solid navy;
+        border-style: none none solid none;
+        text-align:center;
+        color: #fff;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+    .sepration{
+        background: #f6c103;
+        width:100vw;
+        border: 5px solid navy;
+        border-style: none none solid none;
+        text-align:center;
+        color: #fff;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+    .school{
+        width:100vw;
+        display: inline-block;
+    }
+    .manager,.principal{
+        float:none;
+    }
+}
+.gallery{
+    display: flex;
+    grid-template-columns:auto auto auto;
+    justify-content:center;
+    grid-gap: 10px 15px;
+    margin: 15px;
+    flex-wrap: wrap;
+}
+.gallery img{
+    border-radius: 15px;
+    border: 1px solid black;
+}
+.gallery img:hover{
+    flex-grow: 1;
+    transition: 1s;
+}
+.Photo-Gallery{
+    background: #f6c103;
+    width: 98vw;
+    border: 5px solid navy;
+    border-style: none none solid none;
+    text-align:center;
+    color: #fff;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin:auto;
+    margin-top: 200px;
+}
+@media only screen and (max-width:900px){
+    .gallery{
+        grid-template-columns: 50px;
+        grid-gap: 5px;
+    }
+    .gallery img{
+        border-radius: 15px;
+        border: 1px solid black;
+        width: 90vw;
+    }
+}
+*{
+    margin: 0;
+}
+/*Header*/
+header{
+    /* height:100px; */
+    box-sizing: border-box;
+    background: linear-gradient(#29156a,#f0b904a1);
+    width: 100%;
+    padding: 8vh 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logo{
+    border-radius: 500px;
+    height: 10vh;
+    float: left;
+}
+li{
+    display: inline-block;
+    padding: 5px 15px;
+    border-radius: 3px;
+    margin: 0px 20px;
+}
+.li{
+    background: #9e1f22;
+}
+.li:hover{
+    background: #fc0004;   
+    transition: 0.5s;
+}
+li:hover{
+    background: rgba(0, 0, 128, 0.555);   
+    transition: 0.5s; 
+}
+.nav-btn{
+    text-decoration: none;
+    color: white;
+}
+nav .fa{
+    display: none;
+}
+.menu-opn{
+    display: none;
+}
+.nav-mobile{
+    display: none;
+}
+.banner{
+    width: 100%;
+    height: 15vw;
+} 
+.sepration{
+    background: #f6c103;
+    width: 98vw;
+    border: 5px solid navy;
+    border-style: none none solid none;
+    text-align:center;
+    color: #fff;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: auto;
+}
+/* For mobile view */
+.main{
+    margin: 20px 100px;
+    box-sizing: border-box;
+    margin-bottom: 100px;
+    display:flex;
+    justify-content: space-around;    
+    font-family: Arial, Helvetica, sans-serif;
+}
+input{
+    padding: 5px;
+    margin: 5px;
+}
+.send-btn{
+    background: transparent;
+    border: 2px sold black;
+    border-radius: 189px;
+    padding: 10px;
+    cursor: pointer;
+}
+.send-btn:hover{
+    background: rgb(238, 238, 238);
+}
+footer{
+    background: #005c87;
+    width: 100%;
+    padding:20px 0%;
+    position:fixed;
+    bottom: 0;
+}
+footer p{
+    color: #fff;
+    text-align: center;
+}
+.email{
+    text-decoration: none;
+    color: rgba(255, 0, 0, 0.774);
+}
+@media only screen and (max-width: 900px){
+    nav{
+        display: none;
+    }
+    header{
+        justify-content:right;
+        padding: 4vh 0vh;
+    }
+    .nav-btn{
+        padding: 5px 15px;
+    }
+    .menu-opn{
+        display: block;
+        color:#fff;
+        padding: 5px 20px;
+    }
+    nav .fa{
+        display: block;
+        color: white;
+        margin-top: 15px;
+        padding: 5px;
+    }
+    .nav-mobile{
+        display: block;
+        background: linear-gradient(#29156a,#f0b904a1);
+        height: 100vh;
+        position: fixed;
+        right: -80vw;
+        margin: auto;
+    }
+    li{
+        margin: 5px 0px;
+        display: block;
+    }
+    .main{
+        display: block;
+    }
+}
+
+body {
+    background: url('Images/Background.jpg') no-repeat fixed center center;
+    background-size: cover;
+    font-family: Montserrat;
+}
+
+.logo {
+    width: 150px;
+    height: 150px;
+    background: url('Images/logo.jpg') no-repeat;
+    background-size: 100% 100%;
+    margin: 10px auto;
+    border-radius: 189px;
+}
+
+.login-block {
+    width: 320px;
+    padding: 20px;
+    background: #fff;
+    border-radius: 5px;
+    border-top: 5px solid #ff656c;
+    margin: 0 auto;
+    height: 400px;
+}
+
+.login-block h1 {
+    text-align: center;
+    color: #000;
+    font-size: 18px;
+    text-transform: uppercase;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.login-block .txt {
+    width: 100%;
+    height: 42px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+    font-size: 14px;
+    font-family: Montserrat;
+    padding: 0 20px 0 50px;
+    outline: none;
+}
+
+.login-block input#username {
+    background: #fff url('u0XmBmv.png') 20px top no-repeat;
+    background-size: 16px 80px;
+}
+
+.login-block input#username:focus {
+    background: #fff url('u0XmBmv.png') 20px bottom no-repeat;
+    background-size: 16px 80px;
+}
+
+.login-block input#password {
+    background: #fff url('Qf83FTt.png') 20px top no-repeat;
+    background-size: 16px 80px;
+}
+
+.login-block input#password:focus {
+    background: #fff url('Qf83FTt.png') 20px bottom no-repeat;
+    background-size: 16px 80px;
+}
+
+.login-block input:active, .login-block input:focus {
+    border: 1px solid #ff656c;
+}
+
+.login-block .btn {
+    width: 100%;
+    height: 40px;
+    background: transparent;
+    box-sizing: border-box;
+    border-radius: 189px;
+    border: 1px solid #e15960;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-family: Montserrat;
+    outline: none;
+    cursor: pointer;
+}
+
+.login-block .btn:hover {
+    background: #e15960;
+    transition: 0.5s;
+    color: #fff;
+    border: 2px solid #000;
+
+}
+.Forgetpass-btn{
+    background: #e15960;
+    color: #fff;
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 3px;
+    position: relative;
+    bottom:-15px;
+}
+.Forgetpass-btn:hover{
+    background: #ff7b81;
+}
