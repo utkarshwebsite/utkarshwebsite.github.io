@@ -17,53 +17,62 @@
     <nav id="navlinks" class="nav-mobile">
         <ul>
             <span class="menu-cls"><i class="fa fa-times" onclick="hidemenu()"></i></span>
-            <li><a class="nav-btn" href="index.html">Home</a></li>
-            <li class="about">About <i class="fa fa-caret-down"></i></li>
-            <li><a class="nav-btn" href="#">Rules & Regulations<i class="fa fa-caret-down"></i></a></li>
+            <li><a class="nav-btn" href="/index.html">Home</a></li>
+            <li class="about"><a onclick="aboutmenu()" class="nav-btn" data-toggle="dropdown">About</i></a></li>
+            <li><a class="nav-btn" href="/rules//general-rules.html">Rules & Regulations</i></a></li>
             <li><a class="nav-btn" href="#">Registration/Addmission</a></li>
-            <li><a class="nav-btn" href="contact.html">Contact</a></li>
-            <li class="li"><a class="nav-btn" href="alumni.html">Alumni</a></li>
-            <li class="li"><a class="nav-btn" href="Login.html">Login</a></li>
+            <li><a class="nav-btn" href="/contact.html">Contact</a></li>
+            <li class="li"><a class="btn" href="/alumni.html">Alumni</a></li>
+            <li class="li"><a class="btn" href="/Login.html">Login</a></li>
         </ul>
     </nav>
     <header>
         <span class="menu-opn"><i class="fa fa-bars" onclick="showmenu()"></i></span>
         <nav >
             <ul>
-                <li><a class="nav-btn" href="index.html">Home</a></li>
-                <li><a class="nav-btn" href="about.html">About <i id="drop-menu"class="fa fa-sort-desc"></i></a></li>
-                <li><a class="nav-btn" href="#">Rules & Regulations <i id="drop-menu"class="fa fa-sort-desc"></i></a></li>
+                <li><a class="nav-btn" href="/index.html">Home</a></li>
+                <li><a class="nav-btn" onmouseleave="aboutexit()" onmousemove="aboutshow()">About <i id="drop-menu"class="fa fa-sort-desc"></i></a></li>
+                <li><a class="nav-btn" href="/rules/general-rules.html">Rules & Regulations <i id="drop-menu"class="fa fa-sort-desc"></i></a></li>
                 <li><a class="nav-btn" href="#">Registration/Addmission <i id="drop-menu"class="fa fa-sort-desc"></i></a></li>
-                <li><a class="nav-btn" href="contact.html">Contact</a></li>
-                <li class="li"><a class="nav-btn" href="alumni.html">Alumni</a></li>
-                <li class="li"><a class="nav-btn" href="Login.html">Login</a></li>
+                <li><a class="nav-btn" href="/contact.html">Contact</a></li>
+                <li class="li"><a class="btn" href="/alumni.html">Alumni</a></li>
+                <li class="li"><a class="btn" href="/Login.html">Login</a></li>
             </ul>
         </nav>
-    </header>
-        <div class="about-menu">
-            
+        <div class="about-menu" id="about" onmousemove="aboutshow()" onmouseleave="aboutexit()">
+            <br>
+            <a class="about-btn" href="/about/history.html">History</a>
+            <a class="about-btn" href="/about/school-logo.html">School Logo</a>
+            <a href="/about/houses.html" class="about-btn">Houses</a>
+            <a href="/about/uniform.html" class="about-btn">Uniform</a>
+            <a href="/about/prayer.html" class="about-btn">School Prayer</a>
+            <a href="/about/hymn.html" class="about-btn">School Hymn</a>
+            <a href="/about/school-song.html" class="about-btn">School Song</a>
         </div>
+    </header>
     <main>
         <div class="banner">
-            <img src="Images/banner.bmp" alt="banner" width="100%" height="100%">
+            <img src="/Images/banner.bmp" alt="banner" width="100%" height="100%">
         </div>
         <div class="main"><img src="Images/Background.jpg" height="100%" width="100%"alt=""></div>
         <div class="about-sep"><h2>About Us</h2></div>
         <div class="sepration"><h2>School</h2></div>
-        <div class="school">
-            <div class="principal">
-                <img src="Images/Principal.jpg" alt="Principal" class="img">
-                <h3>From The Principal's Desk</h3>
+        <div class="container">
+            <div class="school">
+                <div class="principal">
+                    <img src="Images/Principal.jpg" alt="Principal" class="img">
+                    <h3>From The Principal's Desk</h3>
+                </div>
+                <div class="manager">
+                    <img src="Images/Manager.jpg" alt="Manager" class="img">
+                    <h3>From The Manager's Desk</h3>
+                </div>
             </div>
-            <div class="manager">
-                <img src="Images/Manager.jpg" alt="Manager" class="img">
-                <h3>From The Manager's Desk</h3>
+            <div class="abut-cond"><h3>About Us</h3></div>
+            <div class="aboutus">
+                <img src="Images/logo.jpg" alt="Principal" class="logo-img"><br>
+                <b>St. Thomas School was established by Mr. Rakesh Chattree the Principal of Christ Church College, Lucknow, who laid its foundation on the 8th day of July in the year 2008 and got it dedicated on 5th December, 2009. The School was first named as Bishop Stephen School in 2009 which was later changed to St. Thomas School in the year 2010 on the name of the Church standing in the middle of the campus since 1859. <a href="about/history.html">Read More</a></b>
             </div>
-        </div>
-        <div class="abut-cond"><h3>About Us</h3></div>
-        <div class="aboutus">
-            <img src="Images/logo.jpg" alt="Principal" class="logo-img"><br>
-            <b>St. Thomas School was established by Mr. Rakesh Chattree the Principal of Christ Church College, Lucknow, who laid its foundation on the 8th day of July in the year 2008 and got it dedicated on 5th December, 2009. The School was first named as Bishop Stephen School in 2009 which was later changed to St. Thomas School in the year 2010 on the name of the Church standing in the middle of the campus since 1859. <a href="about/history.html">Read More</a></b>
         </div>
         <div class="Photo-Gallery"><h2>Photo Gallery</h2></div>
         <div class="gallery">
@@ -87,9 +96,19 @@
             navlinks.style.right = "0px";
             navlinks.style.transition = "1s";
         }
-        function hidemenu(){
-            navlinks.style.right = "-80vw";
-        }
+            function hidemenu(){
+                navlinks.style.right = "-80vw";
+            }
+            var about = document.getElementById("about");
+            function aboutshow(){
+                about.style.transition = "1s";
+                about.style.display = "block";
+                about.style.top = "80px";
+            }
+            function aboutexit(){
+                about.style.display = "none ";
+            }
+
     </script>
 
 </body> 

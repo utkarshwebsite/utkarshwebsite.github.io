@@ -51,6 +51,25 @@ nav .fa{
     width: 100%;
     height: 15vw;
 } 
+.about-menu{
+    position: absolute;
+    left: 410px;
+    padding: 0;
+    margin: 0;
+    display: none;
+    border: 2px inset black;
+    background: linear-gradient(#29156a,#f0b904e8);
+}
+.about-btn{
+    display: block;
+    text-decoration: none;
+    color:#fff; 
+    padding: 10px 50px 10px 10px;
+}
+.about-btn:hover{
+    background: rgba(172, 0, 0, 0.596);
+    transition:0.5s;
+}
 .sepration{
     background: #f6c103;
     width: 100w;

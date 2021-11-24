@@ -12,26 +12,40 @@ header{
     align-items: center;
     justify-content: center;
 }
+body{
+    background: #f8f7e6;
+}
 .logo{
     border-radius: 500px;
     height: 10vh;
     float: left;
 }
-li{
-    display: inline-block;
+a{
+    font-family: System-ui;
+    font-size: 15px;
+}
+.nav-btn{
+    cursor: pointer;
     padding: 5px 15px;
     border-radius: 3px;
+}
+.btn{
+    background: #9e1f22;
+    padding: 5px 15px;
+    border-radius: 3px;
+    color: #fff;
+    text-decoration: none;
+}
+li{
+    display: inline-block;
     margin: 0px 20px;
 }
-.li{
-    background: #9e1f22;
+.btn:hover{
+    background: #be1618;
+
 }
-.li:hover{
-    background: #fc0004;   
-    transition: 0.5s;
-}
-li:hover{
-    background: rgba(0, 0, 128, 0.555);   
+.nav-btn:hover{
+    background: rgba(0, 0, 128, 0.555);
     transition: 0.5s; 
 }
 .nav-btn{
@@ -40,6 +54,25 @@ li:hover{
 }
 nav .fa{
     display: none;
+}
+.about-menu{
+    position: absolute;
+    left: 410px;
+    padding: 0;
+    margin: 0;
+    display: none;
+    border: 2px inset black;
+    background: linear-gradient(#29156a,#f0b904e8);
+}
+.about-btn{
+    display: block;
+    text-decoration: none;
+    color:#fff; 
+    padding: 10px 50px 10px 10px;
+}
+.about-btn:hover{
+    background: rgba(172, 0, 0, 0.596);
+    transition:0.5s;
 }
 .menu-opn{
     display: none;

@@ -50,7 +50,7 @@
         <span class="menu-cls"><i class="fa fa-times" onclick="hidemenu()"></i></span>
         <li><a class="nav-btn" href="index.html">Home</a></li>
         <li><a class="nav-btn" href="#">About</a></li>
-        <li><a class="nav-btn" href="#">Rules & Regulations</a></li>
+        <li><a class="nav-btn" href="/rules/general-rules.html">Rules & Regulations</a></li>
         <li><a class="nav-btn" href="#">Registration/Addmission</a></li>
         <li><a class="nav-btn" href="/contact.html">Contact</a></li>
         <li class="li"><a class="nav-btn" href="alumni.html">Alumni</a></li>
@@ -62,14 +62,24 @@
     <nav >
         <ul>
             <li><a class="nav-btn" href="index.html">Home</a></li>
-            <li><a class="nav-btn" href="#">About</a></li>
-            <li><a class="nav-btn" href="#">Rules & Regulations</a></li>
+            <li><a class="nav-btn" onmouseleave="aboutexit()" onmousemove="aboutshow()">About <i id="drop-menu"class="fa fa-sort-desc"></i></a></li>
+            <li><a class="nav-btn" href="/rules/general-rules.html">Rules & Regulations</a></li>
             <li><a class="nav-btn" href="#">Registration/Addmission</a></li>
             <li><a class="nav-btn" href="/contact.html">Contact</a></li>
             <li class="li"><a class="nav-btn" href="alumni.html">Alumni</a></li>
             <li class="li"><a class="nav-btn" href="Login.html">Login</a></li>
         </ul>
     </nav>
+    <div class="about-menu" id="about" onmousemove="aboutshow()" onmouseleave="aboutexit()">
+        <br>
+        <a class="about-btn" href="/about/history.html">History</a>
+        <a class="about-btn" href="/about/school-logo.html">School Logo</a>
+        <a href="/about/houses.html" class="about-btn">Houses</a>
+        <a href="/about/uniform.html" class="about-btn">Uniform</a>
+        <a href="/about/prayer.html" class="about-btn">School Prayer</a>
+        <a href="/about/hymn.html" class="about-btn">School Hymn</a>
+        <a href="/about/school-song.html" class="about-btn">School Song</a>
+    </div>
 </header>
 <img class="banner" src="Images/banner.bmp"/>
 
@@ -157,6 +167,7 @@
     <script src="js/jquery.isotope.min.js"></script>
     <script src="js/main.js"></script>
     <script src="js/wow.min.js"></script>
+    
     <script>
         var navlinks = document.getElementById("navlinks");
         function showmenu(){
@@ -166,6 +177,15 @@
         function hidemenu(){
             navlinks.style.right = "-80vw";
         }
+        var about = document.getElementById("about");
+            function aboutshow(){
+                about.style.transition = "1s";
+                about.style.display = "block";
+                about.style.top = "80px";
+            }
+            function aboutexit(){
+                about.style.display = "none ";
+            }
     </script>
     </form>
 </body>

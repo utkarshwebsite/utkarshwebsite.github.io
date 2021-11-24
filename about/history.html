@@ -7,7 +7,7 @@
     <meta name="author" content="SmartCms Team" />
     <meta name="keyword" content="multipurpose, business" />
     <title>Educational Portal: St. Thomas School Gonda</title>
-    <link rel="stylesheet" href="history.css">
+    <link rel="stylesheet" href="/style-sheets/history.css">
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
     </style> 
@@ -19,7 +19,7 @@
             <span class="menu-cls"><i class="fa fa-times" onclick="hidemenu()"></i></span>
             <li><a class="nav-btn" href="/index.html ">Home</a></li>
             <li><a class="nav-btn" href="">About</a></li>
-            <li><a class="nav-btn" href="#">Rules & Regulations</a></li>
+            <li><a class="nav-btn" href="/rules/general-rules.html">Rules & Regulations</a></li>
             <li><a class="nav-btn" href="#">Registration/Addmission</a></li>
             <li><a class="nav-btn" href="/contact.html">Contact</a></li>
             <li class="li"><a class="nav-btn" href="/alumni.html">Alumni</a></li>
@@ -31,14 +31,24 @@
         <nav >
             <ul>
                 <li><a class="nav-btn" href="/index.html">Home</a></li>
-                <li><a class="nav-btn" href="about.html">About</a></li>
-                <li><a class="nav-btn" href="#">Rules & Regulations</a></li>
+                <li><a class="nav-btn" onmouseleave="aboutexit()" onmousemove="aboutshow()">About <i id="drop-menu"class="fa fa-sort-desc"></i></a></li>
+                <li><a class="nav-btn" href="/rules/general-rules.html">Rules & Regulations</a></li>
                 <li><a class="nav-btn" href="#">Registration/Addmission</a></li>
                 <li><a class="nav-btn" href="/contact.html">Contact</a></li>
-                <li class="li"><a class="nav-btn" href="/alumni.html">Alumni</a></li>
-                <li class="li"><a class="nav-btn" href="/Login.html">Login</a></li>
+                <li class="li"><a class="btn" href="/alumni.html">Alumni</a></li>
+                <li class="li"><a class="btn" href="/Login.html">Login</a></li>
             </ul>
         </nav>
+        <div class="about-menu" id="about" onmousemove="aboutshow()" onmouseleave="aboutexit()">
+            <br>
+            <a class="about-btn" href="/about/history.html">History</a>
+            <a class="about-btn" href="/about/school-logo.html">School Logo</a>
+            <a href="/about/houses.html" class="about-btn">Houses</a>
+            <a href="/about/uniform.html" class="about-btn">Uniform</a>
+            <a href="/about/prayer.html" class="about-btn">School Prayer</a>
+            <a href="/about/hymn.html" class="about-btn">School Hymn</a>
+            <a href="/about/school-song.html" class="about-btn">School Song</a>
+        </div>
     </header>
     <main>
         <main>
@@ -69,6 +79,15 @@
         function hidemenu(){
             navlinks.style.right = "-80vw";
         }
+        var about = document.getElementById("about");
+            function aboutshow(){
+                about.style.transition = "1s";
+                about.style.display = "block";
+                about.style.top = "80px";
+            }
+            function aboutexit(){
+                about.style.display = "none ";
+            }
     </script> 
 
 

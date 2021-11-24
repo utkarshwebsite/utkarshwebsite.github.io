@@ -13,7 +13,7 @@ header{
     justify-content: center;
 }
 body{
-    background: #fffcd7;
+    background: #fff;
 }
 .logo{
     border-radius: 500px;
@@ -32,14 +32,10 @@ i{
     padding: 5px 15px;
     border-radius: 3px;
 }
-li{
+.li{
     display: inline-block;
     margin: 0px 20px;
 }
-/* .li:hover{
-    background: #fc0004;   
-    transition: 0.5s;
-} */
 .nav-btn:hover{
     background: rgba(0, 0, 128, 0.555);
     transition: 0.5s; 
@@ -110,11 +106,10 @@ nav .fa{
         right: -80vw;
         margin: auto;
     }
-    li{
-        margin: 20px 0px;
+    .li{
+        margin: 5px 0px;
         display: block;
     }
-    
 }
 body{
     background: #fffcd7;
@@ -129,7 +124,8 @@ body{
     height: 50vw;
 }
 main{
-    margin-bottom: 15%;
+    margin-bottom: 6%;
+    line-height: 30px;
 }
 .about-sep{
     background: #f6c103;
@@ -168,7 +164,8 @@ main{
 }
 .sepration{
     background: #f6c103;
-    width: 72vw;
+    width: 98vw;
+    margin: auto;
     border: 5px solid navy;
     border-style: none none solid none;
     text-align:center;
@@ -202,14 +199,12 @@ main{
 .about-menu{
     position: absolute;
     left: 410px;
-    top: 100px;
     padding: 0;
     margin: 0;
     display: none;
     border: 2px inset black;
-    /* background:#fff; */
-    background: linear-gradient(#29156a,#f0b904a1);
-
+    background:#fff;
+    background: linear-gradient(#29156a,#f0b904e8);
 }
 .about-btn{
     display: block;
@@ -222,6 +217,12 @@ main{
     transition:0.5s;
 }
 
+main{
+    background: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #4e4e4e;
+    line-height: 22px;
+}
 
 /* footer*/
 footer{
@@ -231,9 +232,10 @@ footer{
     position:fixed;
     bottom: 0;
 }
-footer p{
+footer h6{
     color: #fff;
     text-align: center;
+    font-size: 15px;
 }
 @media only screen and (max-width:900px){
     main{
